@@ -97,7 +97,7 @@ const techStackIcons = [
 
 const expCards = [
   {
-    review: "Started Learning and Building 2d Games and Published my first game on PlayStore.",
+    review: "Started Learning and Building 2d Games and Published my first game on PlayStore. ",
     imgPath: "/images/trex.png",
     logoPath: "/images/dps.jpg",
     title: "Delhi Public School",
