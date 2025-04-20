@@ -28,7 +28,8 @@ const TechIconCardExperience = ({ model }) => {
         penumbra={1}
         intensity={2}
       />
-      <Environment files="/hdri/rathaus_1k.hdr" background />
+      <Environment  preset="city" />
+    
 
       {/* 
         The Float component from @react-three/drei is used to 
