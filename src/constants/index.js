@@ -115,7 +115,7 @@ const expCards = [
     title: "Newton School of Technology",
     date: "August 2024 - Present",
     responsibilities: [
-      "Completed a full-stack development program covering HTML, CSS, JavaScript, React, and Python.",
+      "Completed a front-end development program covering HTML, CSS, JavaScript, React, and Python.",
       "Actively mentored peers, helping them debug code, understand core concepts, and build confidence in development.",
       "Collaborated on projects, participated in code reviews, and developed a strong foundation in frontend technologies.",
     ],
