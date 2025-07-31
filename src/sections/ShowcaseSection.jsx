@@ -84,7 +84,7 @@ const AppShowcase = () => {
               <p className="text-white-50 md:text-xl">
                 An app which improves your CSS Skill with Feedback and Ranking.
               </p>
-            </div>
+            </div>  
           </div>
         </div>
       </div>
