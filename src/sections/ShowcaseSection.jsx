@@ -66,18 +66,24 @@ const AppShowcase = () => {
             <div className="project" ref={libraryRef}>
               <div className="image-wrapper bg-[#FFEFDB]">
                 <img
-                  src="/images/food.png"
+                  src="/images/FormBuilder.png"
                   alt="Food Delivery App"
                 />
               </div>
-              <h2>Food Delivery App</h2>
+              <h2>Form Building Made Simple</h2>
+              <p className="text-white-50 md:text-xl">
+                An app built with Remix and Tailwind for Simple Form Building Experience.
+              </p>
             </div>
 
             <div className="project" ref={ycDirectoryRef}>
               <div className="image-wrapper bg-[#FFE7EB]">
-                <img src="/images/smart.png" alt="Weather Dashboard" />
+                <img src="/images/CSSBattle.png" alt="Weather Dashboard" />
               </div>
-              <h2>Smart Weather Dashboard</h2>
+              <h2>CSS Battle AI</h2>
+              <p className="text-white-50 md:text-xl">
+                An app which improves your CSS Skill with Feedback and Ranking.
+              </p>
             </div>
           </div>
         </div>
