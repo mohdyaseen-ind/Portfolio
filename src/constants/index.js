@@ -121,9 +121,9 @@ const expCards = [
     ],
   },
   {
-    review: "Contributing to Impactful Open Source Projects, Learning Backend Development, Solving DSA... Life is Going on.",
+    review: "Contributing to Impactful Open Source Projects, Solving DSA... Life is Going on.",
     logoPath: "/images/globe.png",
-    title: "Front End Developer",
+    title: "Full Stack Developer",
     date: "Present",
     responsibilities: [
       "Transforming sleek designs into responsive, pixel-perfect websites using Next.js, React, and Tailwind CSS.",
