@@ -29,8 +29,8 @@ const words = [
 ];
 
 const counterItems = [
-  { value: 1, suffix: "+", label: "Years of Experience" },
-  { value: 10, suffix: "+", label: "Completed Projects" },
+  { value: 2, suffix: "+", label: "Years of Experience" },
+  { value: 25, suffix: "+", label: "Completed Projects" },
 ];
 
 const abilities = [
@@ -86,6 +86,12 @@ const techStackIcons = [
     modelPath: "/models/python-transformed.glb",
     scale: 0.8,
     rotation: [0, 0, 0],
+  },
+  {
+    name: "Backend",
+    modelPath: "/models/node-transformed.glb",
+    scale: 5,
+    rotation: [0, -Math.PI / 2, 0],
   },
   {
     name: "Git",
