@@ -47,17 +47,26 @@ const AppShowcase = () => {
     <div id="work" ref={sectionRef} className="app-showcase">
       <div className="w-full">
         <div className="showcaselayout">
+          {/* Invisible section heading for SEO & accessibility */}
+          <h2 className="sr-only">
+            Full-Stack Projects by Mohammed Yaseen
+          </h2>
+
           <div ref={rydeRef} className="first-project-wrapper">
             <div className="p-2 mt-7">
-              <img className="rounded-xl" src="/images/healthX.png" alt="HealthX App" />
+              <img
+                className="rounded-xl"
+                src="/images/healthX.png"
+                alt="HealthX web app interface for AI-assisted early diagnosis"
+              />
             </div>
             <div className="text-content">
               <h2>
-              Early Diagnosis Made Simple with a Powerful, AI-Powered App called HealthX
+                HealthX – AI-Assisted Early Diagnosis for Everyday Users
               </h2>
               <p className="text-white-50 md:text-xl">
-                An app built with React & TailwindCSS for a fast,
-                user-friendly experience.
+                A responsive web app built with React and TailwindCSS, focused
+                on making early health insights simple, fast, and accessible.
               </p>
             </div>
           </div>
@@ -67,24 +76,30 @@ const AppShowcase = () => {
               <div className="image-wrapper bg-[#FFEFDB]">
                 <img
                   src="/images/FormBuilder.png"
-                  alt="Food Delivery App"
+                  alt="Form builder interface with drag-and-drop fields"
                 />
               </div>
               <h2>Form Building Made Simple</h2>
               <p className="text-white-50 md:text-xl">
-                An app built with Remix and Tailwind for Simple Form Building Experience.
+                A form builder powered by Remix and Tailwind, designed for
+                frictionless form creation with clean UX and built-in
+                validation.
               </p>
             </div>
 
             <div className="project" ref={ycDirectoryRef}>
               <div className="image-wrapper bg-[#FFE7EB]">
-                <img src="/images/CSSBattle.png" alt="Weather Dashboard" />
+                <img
+                  src="/images/CSSBattle.png"
+                  alt="CSS Battle AI app showing challenges and feedback"
+                />
               </div>
               <h2>CSS Battle AI</h2>
               <p className="text-white-50 md:text-xl">
-                An app which improves your CSS Skill with Feedback and Ranking.
+                A practice platform that helps developers improve their CSS
+                skills with feedback, ranking, and challenge-based learning.
               </p>
-            </div>  
+            </div>
           </div>
         </div>
       </div>

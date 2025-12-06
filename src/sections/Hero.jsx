@@ -9,11 +9,11 @@ import HeroExperience from "../components/models/hero_models/HeroExperience";
 const Hero = () => {
   useGSAP(() => {
     gsap.fromTo(
-      ".hero-text h1",
+      ".hero-text > *",
       { y: 50, opacity: 0 },
       { y: 0, opacity: 1, stagger: 0.2, duration: 1, ease: "power2.inOut" }
     );
-  });
+  }, []);
 
   return (
     <section id="hero" className="relative overflow-hidden">
@@ -25,8 +25,14 @@ const Hero = () => {
         {/* LEFT: Hero Content */}
         <header className="flex flex-col justify-center md:w-full w-screen md:px-20 px-5">
           <div className="flex flex-col gap-7">
-            <div className="hero-text">
-              <h1>
+            {/* Main SEO heading */}
+            <h1 className="sr-only">
+              Mohammed Yaseen — Full-Stack Developer & Software Engineer
+            </h1>
+
+            {/* Visual hero text (animated) */}
+            <div className="hero-text" aria-hidden="true">
+              <p>
                 Shaping
                 <span className="slide">
                   <span className="wrapper">
@@ -45,13 +51,13 @@ const Hero = () => {
                     ))}
                   </span>
                 </span>
-              </h1>
-              <h1>into Real Projects</h1>
-              <h1>that Deliver Results</h1>
+              </p>
+              <p>into Real Projects</p>
+              <p>that Deliver Results</p>
             </div>
 
             <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
-              Hi, I’m Yaseen, a frontend developer with a passion for code
+              Hi, I’m Yaseen, a Full-Stack developer with a passion for code
             </p>
 
             <Button
